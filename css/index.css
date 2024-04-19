@@ -24,6 +24,17 @@ h1 {
     line-height: 85%;
 }
 
+button {
+    font-family: Lato;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    background-color: #18403d;
+    border: #18403d;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+}
 
 /* Page Layout */
 #heroGrid {
@@ -79,6 +90,7 @@ h1 {
     justify-content: left;
 }
 
+/* Header */
 .inline-block {
     display: inline-block;
     align-items: center;
@@ -97,22 +109,26 @@ nav {
     width: 19%;
 }
 
-ul {
+.navList {
     list-style-type: none;
     float: right;
 }
 
-li {
+.navItems {
     display: inline;
     padding: 8px;
 }
 
-.heroGrid {
-    height: 600px;
-    padding: 25px;
+/* Footer */
+
+.footer {
+    background-color: lightgray;
+    height: 100px;
+    align-content: center;
+    text-align: center;
 }
 
-.content {
-    width: 500px;
-    margin: 0 auto;
+.endList {
+    padding: 0% 10%;
+    display: inline;
 }
