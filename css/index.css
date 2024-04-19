@@ -31,8 +31,8 @@ h1 {
     min-height: 500px;
     max-height: 3000px;
     padding: 0 1%;
-    grid-template-columns: 30% 6% 64%;
-    grid-template-rows: 1fr 1.5fr;
+    grid-template-columns: 30% 2% 67%;
+    grid-template-rows: 400px 650px;
     grid-template-areas:
         "imageOne imageOne imageTwo"
         "colOne waveCol colThree"
@@ -61,16 +61,23 @@ h1 {
 #colOne {
     grid-area: colOne;
     text-align: right;
+    justify-content: right;
+    padding-right: 15px;
 }
 
 #waveCol {
     grid-area: waveCol;
+    background-image: url("/images/Wave.png");
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: bottom;
 }
 
 #colThree {
     grid-area: colThree;
+    padding-left: 15px;
+    justify-content: left;
 }
-
 
 .inline-block {
     display: inline-block;
